@@ -1,4 +1,4 @@
-ackage Cajero_Archivos;
+package Cajero;
 
 import java.io.BufferedWriter;
 import java.io.File;
