@@ -5,19 +5,19 @@ import java.io.Serializable;
 public class Billete implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private int denominacion;
-    private int cantidad;
+    private int Denon;
+    private int Total;
 
-    public Billete(int denominacion, int cantidad) {
+    public Billete(int Deno, int Total) {
         this.denominacion = denominacion;
         this.cantidad = cantidad;
     }
 
-    public int getDenominacion() {
+    public int getDen() {
         return denominacion;
     }
 
-    public void setDenominacion(int denominacion) {
+    public void setDeno(int Deno) {
         this.denominacion = denominacion;
     }
 
